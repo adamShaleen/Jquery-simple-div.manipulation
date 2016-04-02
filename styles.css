@@ -1,0 +1,46 @@
+body {
+    margin: auto;
+}
+
+div {
+    display: inline-block;
+    margin-left: 33px;
+    margin-top: 20px;
+    border-radius: 5%;
+    text-align: center;
+}
+
+.target1 {
+    height: 200px;
+    width: 200px;
+    background: blue;
+}
+
+.target2 {
+    height: 200px;
+    width: 200px;
+    background: red;
+}
+
+.target3 {
+    height: 200px;
+    width: 200px;
+    background: green;
+}
+
+.target4 {
+    height: 200px;
+    width: 200px;
+    background: orange;
+}
+
+.reset {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background: grey;
+    float: left;
+    clear: both;
+    bottom: 300px;
+    left: 0px;
+}
