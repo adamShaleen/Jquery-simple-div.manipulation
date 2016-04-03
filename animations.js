@@ -5,9 +5,9 @@ $(document).ready(function() {
     $('.target1').on('click', function() {
         $(this).css({visibility: 'hidden'});
     })
-    // When mouseleave target1 reappears.
-    $('.target1').on('mouseleave', function() {
-        $(this).css({visibility: 'visible'});
+    // When dblclick target2, target1 reappears.
+    $('.target2').on('dblclick', function() {
+        $('.target1').css({visibility: 'visible'});
     })
 
     //---------------------------------------------
